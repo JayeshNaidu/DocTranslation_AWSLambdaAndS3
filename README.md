@@ -1,5 +1,5 @@
 # DocTranslation_AWSLambdaAndS3
-Translation of documents using AWS Lambda and S3
+Real-time translation of documents using AWS Lambda and S3
 
 #Steps 
 1. Create 2 buckets for input and output respectively.
@@ -9,6 +9,6 @@ Translation of documents using AWS Lambda and S3
   i. var outfile
   ii. Parameter(Bucket) value of put_object function.
 5. Deploy the changes
-6. To test this function add a new txt file to the input bucket
+6. To test this function upload a new txt file to the input bucket
 7. In the lambda page open cloudwatch in metrics tab and check for the logs to debug.
 8. you will find the resultant file in the output bucket.
