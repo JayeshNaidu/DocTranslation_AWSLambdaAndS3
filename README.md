@@ -1,4 +1,5 @@
-# DocTranslation_AWSLambdaAndS3
+# Serverless-Text-Translator
+
 Real-time translation of documents using AWS Lambda and S3
 
 #Steps 
